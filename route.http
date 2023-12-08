@@ -1,0 +1,9 @@
+# @name create-user
+POST http://localhost:3333/login
+content-type: application/json
+
+{
+    "email": "examplo@gmail.com",
+    "password": "numb123456789"
+}
+
